@@ -1,0 +1,27 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+    background-color: greenyellow;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: rebeccapurple;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  body {
+    background-color: violet;
+  }
+  .child{
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    background-color: green;
+  }
+}
+
